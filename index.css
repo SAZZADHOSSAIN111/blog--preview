@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url(https://fonts.google.com/specimen/Figtree);
+@import url(Figtree-VariableFont_wght.ttf);
 
 body{
     height: 100vh;
@@ -17,8 +17,8 @@ body{
 }
 
 .parent{
-    height:600px;
-    width: 450px;
+    height:550px;
+    width: 400px;
     background-color: white ;
     border-radius: 20px;
     box-shadow: 10px 10px black;
