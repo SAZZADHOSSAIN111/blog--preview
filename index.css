@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.google.com/specimen/Figtree);
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent{
+    height:600px;
+    width: 450px;
+    background-color: white ;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    padding: 20px ;
+    border: 2px solid black;
+
+}
+
+/* .image{
+    background-image: url(illustration-article.svg);
+    height: 100%;
+    width:  650px;
+    background-repeat: no-repeat;
+    background-size: ;
+    background-color: red;
+} */
+
+.ler{
+    font-family: figtree;
+    margin-top: 15px;
+    font-weight: 600;
+    background-color:  hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 8px  13px;
+    border-radius: 7px;
+}
+.ler1{
+    font-family: figtree;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+.ler2{
+    font-family: figtree;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 27px;
+
+
+}
+.ler3{
+    font-family: figtree;
+    margin-top: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 18px;
+    opacity: 60%;
+}
+.ler4{
+    font-family: figtree;
+    font-weight: 800;
+    font-size: 18px;
+    margin-left: 10px;
+}
